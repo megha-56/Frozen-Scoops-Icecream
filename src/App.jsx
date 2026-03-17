@@ -7,6 +7,7 @@ import Header from './components/header'
 import Home2 from './components/home2'
 import Menu from './components/Menu'
 import SignatureMenu from './components/SignatureMenu'
+import Banner from './components/banner'
 
 
 function App() {
@@ -16,13 +17,9 @@ function App() {
     <>
       <Header/>
       <Home2/>
-      {/* <Menu/>
-      <SignatureMenu/> */}
-
-      <div className="flex flex-col gap-y-0">
-        <Menu />
-        <SignatureMenu />
-      </div>
+      <Menu />
+      <SignatureMenu />
+      <Banner/>
       
     </>
   )
