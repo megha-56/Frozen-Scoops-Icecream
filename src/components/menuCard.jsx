@@ -8,10 +8,16 @@ const MenuCard=()=>{
 
 
         <div className="flex justify-center bg-white  pt-[150px]  rounded  h-[500px] w-85">
-            
-            <div className="flex flex-col items-center shadow-2xl bg-[#faa5bc]  h-[400px] w-85  rounded-4xl">
-               <img className="h-60 w-60 object-cover -mt-16  shadow-xl rounded-full" src="/icecream.jpg" alt="icecream"/>
-    
+
+            <div className="flex flex-col items-center  bg-[#faa5bc]  h-[400px] w-85  rounded-4xl">
+            {/* <div className="flex flex-col items-center shadow-2xl bg-[#faa5bc]  h-[400px] w-85  rounded-4xl"> */}
+               {/* <img className="h-60 w-60 object-cover -mt-16  shadow-xl rounded-full" src="/icecream.jpg" alt="icecream"/> */}
+              <div className="h-60 w-60 -mt-16 rounded-full overflow-hidden relative shadow-2xl">
+                       <video autoPlay loop  muted  playsInline
+                          className="absolute top-0 left-0 w-full h-full object-cover">
+                          <source src="/icecreamclip.mp4" type="video/mp4" />
+                       </video>
+              </div>
                
 
               <h2 className="text-xl pt-6 font-bold">Ice-Creams</h2>
@@ -34,7 +40,14 @@ const MenuCard=()=>{
         <div className="flex justify-center bg-white  pt-[150px]  rounded  h-[500px] w-85">
             
             <div className="flex flex-col items-center  bg-[#b1cf8a]  h-[400px] w-85  rounded-4xl">
-               <img className="h-60 w-60 object-cover -mt-16 shadow-2xl rounded-full" src="/yogurt.png" alt="Yogurt"/>
+               {/* <img className="h-60 w-60 object-cover -mt-16 shadow-2xl rounded-full" src="/yogurt.png" alt="Yogurt"/> */}
+                <div className="h-60 w-60 -mt-16 rounded-full overflow-hidden relative shadow-2xl">
+                       <video autoPlay loop  muted  playsInline
+                          className="absolute top-0 left-0 w-full h-full scale-150">
+                          <source src="/YOGURT.mp4" type="video/mp4" />
+                       </video>
+                 </div>
+
     
                
 
@@ -58,9 +71,15 @@ const MenuCard=()=>{
         <div className="flex justify-center bg-white  pt-[150px]  rounded  h-[500px] w-85">
             
             <div className="flex flex-col items-center bg-[#d9b382] h-[400px] w-85  rounded-4xl">
-               <img className="h-60 w-60 object-cover -mt-16 shadow-2xl  rounded-full" src="/milk-shake.jpeg" alt="milk-shake"/>
+               {/* <img className="h-60 w-60 object-cover -mt-16 shadow-2xl  rounded-full" src="/milk-shake.jpeg" alt="milk-shake"/>
     
-               
+                */}
+                <div className="h-60 w-60 -mt-16 rounded-full overflow-hidden relative shadow-2xl">
+                       <video autoPlay loop  muted  playsInline
+                          className="absolute top-0 left-0 w-full h-full object-cover">
+                          <source src="/MilkShake.mp4" type="video/mp4" />
+                       </video>
+                 </div>
 
               <h2 className="text-xl pt-6 font-bold">
 Milkshakes</h2>
