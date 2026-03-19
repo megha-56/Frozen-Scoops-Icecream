@@ -6,7 +6,8 @@ const MenuPage=()=>{
     return(
         <>
         <Header/>
-          
+
+         
         <div className=" flex flex-col  w-screen min-h-screen">
                 <div>
                 <h1 className="text-center text-pink-700 font-bold pt-20 text-3xl underline">ICECREAMS</h1>
@@ -101,9 +102,13 @@ const MenuPage=()=>{
 
 
 
+
+
+
+           
             <div  className=" flex flex-col  w-screen h-auto">
                 <div>
-                <h1 className="text-center mt-20 text-pink-700 font-bold pt-20 text-3xl underline">YOGURT</h1>
+                <h1 className="text-center mt-5 text-pink-700 font-bold  text-3xl underline">YOGURT</h1>
                 </div>
                 <div className="flex mt-20  bg-yellow-150 justify-around"> 
                             <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
@@ -134,16 +139,113 @@ const MenuPage=()=>{
                                  </div>
                              </div>
                 </div>
+           </div>
 
 
+            
+
+
+
+            <div className=" flex flex-col mt-8 w-screen min-h-screen">
+                <div>
+                <h1 className="text-center text-pink-700 font-bold pt-20 text-3xl underline">MILKSHAKES</h1>
+                </div>
+                <div className="flex pt-20 flex-col gap-30 h-screen w-screen ">
+                       <div className="flex bg-yellow-150 justify-around"> 
+                            <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
+                               <div>
+                                   <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/2f/41/62/2f41620dacbd0a0e3d686e9e0e71d908.jpg' alt='Vanilla'/>
+                               </div>
+                               <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                                   <h2 className="font-bold pl-3">Oreo Milkshake</h2>
+                                   <button className="bg-pink-700 px-3 py-2 text-xs mx-5 text-white border rounded-xl border ">Add to cart</button>
+                               </div>
+                            </div>
+                            <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
+                                <div>
+                                   <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/7b/13/82/7b13828a4a72152c8e58cbb9a0ca609b.jpg' alt='Chocolate'/>
+                                </div>
+                                <div className="flex flex-col justify-center gap-3 px-5 mr-4 py-10">
+                                  <h2 className="font-bold pl-3">Strawberry<br/> Milkshake</h2>
+                                <button className="bg-pink-700 px-3 py-2  text-xs ml-3 text-white border rounded-xl border  ">Add to cart</button>
+                               </div>
+                            </div>
+                            <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border  border-gray-300 ">
+                                <div>
+                                   <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/5f/a6/6a/5fa66a9f51fb857c4aa826a0bab648df.jpg' alt='Strawberry'/>
+                                </div>
+                                 <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                                    <h2 className="font-bold ">Blueberry<br/> Milkshake</h2>
+                                    <button className="bg-pink-700 px-3 py-2 text-xs mr-1 text-white border rounded-xl border-black">Add to cart</button>
+                                 </div>
+                             </div>
+                </div>
+
+                <div>
+                    <div className="flex justify-around"> 
+                    <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
+                        <div>
+                        <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/e7/0c/32/e70c32e8452394f55d028d6dc73b2122.jpg' alt='Salted Caramel'/>
+                        </div>
+                        <div className="flex flex-col justify-center gap-3    py-10">
+                            <h2 className="font-bold mr-1">Chocolate Cookie <br/>Milkshake</h2>
+                            <button className="bg-pink-700 py-2 text-xs mr-7 ml-3 text-white border rounded-xl border ">Add to cart</button>
+                        </div>
+                    </div>
+                    <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border border-gray-300">
+                        <div>
+                        <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/96/7b/ee/967beed61a0a301ffea5fec89095dd2a.jpg' alt='Chocolate'/>
+                        </div>
+                        <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                            <h2 className="font-bold ">Coffee <br/>Milkshake</h2>
+                            <button className="bg-pink-700 px-3 py-2 text-xs mr-2 text-white border rounded-xl border  ">Add to cart</button>
+                        </div>
+                    </div>
+                    <div className="flex justify-between rounded-xl relative h-[150px] w-[300px] border  border-gray-300 ">
+                        <div>
+                        <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/1200x/84/46/8c/84468cb5e4705b0fdaeca1f38ccbbe22.jpg' alt='Butter Pecan'/>
+                        </div>
+                        <div className="flex flex-col justify-center gap-3 px-5 py-10">
+                            <h2 className="font-bold ">Key Lime<br/> Milkshake</h2>
+                            <button className="bg-pink-700 px-3 py-2 text-xs mr-3 text-white border rounded-xl border-black">Add to cart</button>
+                        </div>
+                    </div>
+                   </div>
+                  </div>
+                
+                <div>
+                        <div className="flex justify-around"> 
+                    <div className="flex justify-between rounded-xl relative h-[150px] w-[400px] border border-gray-300">
+                        <div>
+                        <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/1200x/b6/36/75/b636750ef253f7f501e51a1298c5ad6b.jpg' alt='Mint Chocolate Chip'/>
+                        </div>
+                        <div className="flex flex-col justify-center gap-3  px-5 py-10">
+                            <h2 className="font-bold pl-3">Chocolate Peanut Butter<br/> Milkshake</h2>
+                            <button className="bg-pink-700   px-3 py-2 text-xs ml-5 mr-20 text-white border rounded-xl border ">Add to cart</button>
+                        </div>
+                    </div>
+                    <div className="flex justify-between rounded-xl relative h-[150px] w-[400px] border border-gray-300">
+                        <div>
+                        <img className="absolute h-full rounded-xl w-[150px]" src='https://i.pinimg.com/736x/c8/c7/95/c8c795e596ed64f11f2c960a2eda7591.jpg' alt='Cookies and Cream'/>
+                        </div>
+                        <div className="flex flex-col justify-center gap-3 mr-7 px-5 py-10">
+                            <h2 className="font-bold pr-5 pl-3">Caramel Milkshake</h2>
+                            <button className="bg-pink-700 ml-5 mr-15 py-2 text-xs mr-2 text-white border rounded-xl border  ">Add to cart</button>
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
             </div>
-
-
-            <div>
-               
-
-
             </div>
+            
+
+
+
+
+
+
+
 
         </div>
 
