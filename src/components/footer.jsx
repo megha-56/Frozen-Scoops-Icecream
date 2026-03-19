@@ -32,7 +32,7 @@ const Footer=()=>{
                   <div className="text-white flex flex-col mt-20 gap-10">
                           <h2 className="font-bold text-lg">Get in Touch</h2>
                           <h4 >📍 Sagar High Street, Minal Residency</h4>
-                          <h4>📧 frostydelight@gmail.com</h4>
+                          <h4>📧 frozenScoops@gmail.com</h4>
                           <h4>📞 +91(234)567890</h4>
                           <div className="flex gap-6 text-white ">
 

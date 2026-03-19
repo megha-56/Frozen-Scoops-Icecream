@@ -1,7 +1,12 @@
 import React from "react";
+import {useNavigate} from 'react-router-dom'
 
 
 const MenuCard=()=>{
+    const navigate=useNavigate();
+    function handleClick(){
+        navigate('menu');
+    }
     return(
 
         <div className="h-[600px] w-screen bg-white flex justify-center gap-25">
@@ -30,7 +35,7 @@ const MenuCard=()=>{
               <p className="text-center text-black pt-4 font-semibold text-sm">"Crunchy cones cradle creamy indulgence, a delightful treat with every lick."
                 </p>
 
-             <button className="bg-pink-100 text-pink-800 mx-auto my-auto px-6 py-3 border rounded-3xl ">Order Now</button>
+             <button onClick={handleClick} className="bg-pink-100 text-pink-800 mx-auto my-auto px-6 py-3 border rounded-3xl ">Order Now</button>
   
              </div>
         </div>
@@ -61,7 +66,7 @@ const MenuCard=()=>{
               <p className="text-center text-black pt-4 font-semibold text-sm">"Tangy, creamy yogurt, a refreshing swirl of probiotic goodness.""
                 </p>
 
-             <button className="bg-pink-100 text-pink-800 mx-auto my-auto px-6 py-3 border rounded-3xl ">Order Now</button>
+             <button onClick={handleClick} className="bg-pink-100 text-pink-800 mx-auto my-auto px-6 py-3 border rounded-3xl ">Order Now</button>
   
              </div>
         </div>
@@ -95,7 +100,7 @@ flavors in every sip.""
 
                 </p>
 
-             <button className="bg-pink-100 text-pink-800 mx-auto my-auto px-6 py-3 border rounded-3xl ">Order Now</button>
+             <button onClick={handleClick} className="bg-pink-100 text-pink-800 mx-auto my-auto px-6 py-3 border rounded-3xl ">Order Now</button>
   
              </div>
         </div>
