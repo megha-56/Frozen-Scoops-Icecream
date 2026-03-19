@@ -16,7 +16,7 @@ const CartPage=()=>{
         <div className="w-screen flex justify-center items-center h-170 ">
             <div className="w-326 h-150 justify-between flex  border border-1">
 
-                <div className="flex justify-center items-center bg-pink-100 h-150 w-163">
+                <div className="flex justify-center items-center  h-150 w-163">
                     <div className="border h-100 w-100">
                         <h1 className=" text-3xl font-bold mt-25 text-center">Cart</h1>
                         <button onClick={handleClick} className="text-white bg-pink-700 rounded-lg px-10 py-3 ml-30 mt-20">Add Items+</button>
@@ -26,7 +26,7 @@ const CartPage=()=>{
 
 
                 
-                <div className="bg-sky-50 flex flex-col gap-4  h-150 w-163">   
+                <div className=" flex flex-col gap-4  h-150 w-163">   
                     <label className="ml-10 mt-10" for="Name">Name:</label>
                     <input className="border border-2 py-2 pl-3 mx-10 rounded-lg" id="Name" placeholder="Enter your name " />
                     <label className="ml-10" for="Email">Email:</label>

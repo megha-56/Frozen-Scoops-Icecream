@@ -20,7 +20,7 @@ const ContactPage=()=>{
                     <input className="border  border-2 py-2 mx-10 pl-3 rounded-lg" id="phone" placeholder="Enter your mobile number " />
                     <label className="ml-10" for="address">Address:</label>
                     <input className="border border-1 py-10  mx-10 pl-3 rounded-lg" id="address" placeholder="Enter your Address details ..." />
-                    <button className="bg-white text-pink-800 border border-2 border-black px-2 py-2 mx-65 my-5 rounded-xl " onClick={()=>{toast.success("Info saved successfully ")}}>Submit</button>
+                    <button className="bg-white cursor-pointer text-pink-800 border border-2 border-black px-2 py-2 mx-65 my-5 rounded-xl " onClick={()=>{toast.success("Info saved successfully ")}}>Submit</button>
                 </div>
 
                 <div>
